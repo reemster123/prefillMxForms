@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(59, 130, 246, .5);
+    width: 350px;
+}
+
+.content {
+    margin: 16px;
+}
+
+.label {
+    padding: 8px 0 8px 0;
+}
+
+.label span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.json-input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.validation {
+    border: solid red 1px;
+    border-radius: .5em;
+    background-color: red;
+    padding: .5em;
+    display: none;
+    
+}
+
+.validation span {
+    color: white;
+    
+}
+
+.refresh {
+    width: 100%;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--secondary-70, 202 100% 35%) / var(--tw-bg-opacity));
+    border-style: none;
+    color: white;
+    padding: 8px;
+    margin-top: 12px;
+}
+
